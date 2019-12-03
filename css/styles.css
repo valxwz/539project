@@ -53,7 +53,7 @@ body, p {
 }
 
 .p-large {
-	color: #f1f1f8;
+	color:black; /*     Discover, visit, recreate & share. All in your palm.     */
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
 }
 
@@ -74,14 +74,14 @@ body, p {
 .indent {
 	padding-left: 1.25rem;
 }
-
+/*     change color     */
 h1 {
-	color: #f1f1f8;
+	color: black;  /* Cine Trip */
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #f1f1f8;
+	color: black; /* FEATURES */
 	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
 }
 
@@ -775,8 +775,8 @@ input[type='checkbox'] {
 	margin-bottom: 3rem;
 }
 
-.header h1 {
-	margin-bottom: 1rem;
+.header h2 {
+	font-size: x-large;
 }
 
 .header #js-rotating {
@@ -860,7 +860,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: white; /*     FEATURES background color     */
 }
 
 .tabs h2 {
