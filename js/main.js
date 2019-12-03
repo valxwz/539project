@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCydnM89FN7E0C7XvASPb2_4pMolNKOEHo",
+    apiKey: "",
     authDomain: "cinetripv1.firebaseapp.com",
     databaseURL: "https://cinetripv1.firebaseio.com",
     projectId: "cinetripv1",
