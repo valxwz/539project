@@ -146,12 +146,18 @@ a.white {
 }
 
 .grid-title-container {
+	margin-top: 50px;
 	padding: 2em;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 	grid-row-gap: 4em;
 	grid-column-gap: 50px;
+}
+
+.grid-title-container h3, .grid-title-container2 h3{
+	margin-top: 50px;
+	color: black;
 }
 
 .grid-title-container2 {
