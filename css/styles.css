@@ -130,7 +130,7 @@ a.white {
 	width: 60%;
 	height: auto;
 	margin-left: 20%;
-	background-color: #3D38CB;
+	background-color: #F9F9F9;
 	padding: 10% 15%;
 	margin-bottom: -50%;
 	margin-top: -20%;
@@ -138,6 +138,10 @@ a.white {
 	border-radius:15px; 
 	text-align: center;
 
+}
+
+.signupForm h3, p{
+	color: black;
 }
 
 .testimonial-text {
@@ -297,7 +301,7 @@ a.white {
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #764F06;
+	border: 1px solid;
 	border-radius: 0.25rem;
 	color: #f1f1f8;
 	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
@@ -370,6 +374,9 @@ select::-ms-expand {
 .form-control-textarea:hover {
 	border: 1px solid #f1f1f8;
 }
+.form-control-input:hover{
+	box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.50);
+}
 
 .checkbox {
 	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
@@ -393,7 +400,7 @@ input[type='checkbox'] {
 	height: 3.125rem;
 	border: 1px solid #3D38CB;
 	border-radius: 1.5rem;
-	background-color: #FBA300;
+	background-color: #3D38CB;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -401,8 +408,9 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	background-color: transparent;
-	color: #3D38CB;
+	background-color: #FBA300;
+	color: white;
+	border:0;
 }
 
 /* Form Success And Error Message Formatting */
@@ -654,7 +662,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	background-color: #F2EEEB;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s ease;
@@ -751,7 +759,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #fff;
+	color: #3D38CB;
 	font-size: 2rem;
 }
 
@@ -1432,11 +1440,11 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #3D38CB;
+	color: #fff;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #fff;
+    color: #FBA300;
 }
 
 
@@ -1789,11 +1797,11 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-2x {
-		color: #fff;
+		color: #FBA300;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #3D38CB;
+		color: #fff;
 	}
 	/* end of navigation */
 
@@ -1993,7 +2001,8 @@ a:hover.back-to-top {
 	}
 
 	.header .image-container {
-		margin-left: 3rem;
+		margin-left: 3rem;;
+		margin-bottom: 10rem;
 	}
 	/* end of header */
 
