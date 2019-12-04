@@ -124,21 +124,7 @@ a.white {
 	color: #fff;
 }
 
-.signupForm{
-	display: inline-block;
-	position: relative;
-	width: 60%;
-	height: auto;
-	margin-left: 20%;
-	background-color: #F9F9F9;
-	padding: 10% 15%;
-	margin-bottom: -50%;
-	margin-top: -20%;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-	border-radius:15px; 
-	text-align: center;
 
-}
 
 
 .signupForm h3, p{
@@ -1631,6 +1617,29 @@ a:hover.back-to-top {
 /*****************************/	
 /* Min-width width 768px */
 @media (min-width: 768px) {
+
+
+	/*header img*/
+	.image-container{
+		margin-bottom: 80px;
+
+	}
+	
+
+	.signupForm{
+	position: relative;
+	margin:20%;
+	background-color: #F9F9F9;
+/*	padding: 10% 15%;
+	margin-bottom: -50%;
+	margin-top: -20%;*/
+/*	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);*/
+/*	border-radius:15px;*/ 
+	text-align: center;
+
+}
+
+
 	
 	/* General Styles */
 	.p-heading {
@@ -1643,7 +1652,6 @@ a:hover.back-to-top {
 		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
 	}
 	/* end of general styles */
-
 
 	/* Navigation */
 	.navbar-custom {
@@ -1837,7 +1845,23 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
-	
+		.signupForm{
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
+	background-color: #F9F9F9;
+	padding: 10% 15%;
+	margin-bottom: -50%;
+	margin-top: -20%;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius:15px; 
+	text-align: center;
+
+}
+
+
 	/* Navigation */
 	.navbar-custom .social-icons {
 		display: block;
@@ -2039,6 +2063,7 @@ a:hover.back-to-top {
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
+
 	
 	/* Navigation */
 	.navbar-custom {
@@ -2197,3 +2222,14 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+
+
+/*signup form media query for small screen*/
+@media (max-width: 800px) {
+	.signupForm {
+		text-align:center;
+		margin: 20%;}
+
+
+}
