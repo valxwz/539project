@@ -152,7 +152,7 @@ a.white {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 	grid-row-gap: 4em;
-	grid-column-gap: 50px;
+	grid-column-gap: 90px;
 }
 
 .grid-title-container h3, .grid-title-container2 h3{
@@ -161,11 +161,12 @@ a.white {
 }
 
 .grid-title-container2 {
+	margin-top: 50px;
 	padding: 2em;
 	display: grid;
-	grid-template-columns: 1fr auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
-	grid-column-gap: 50px;
+	grid-column-gap: 20px;
 }
 
 .title-features1{
@@ -180,14 +181,15 @@ a.white {
 }
 
 .title-features3{
-	grid-column:4;
+	grid-column:5;
 	grid-row:1/2;
+	margin-right: 100px;
 }
 
 .title-features4{
-	grid-column: auto;
+	grid-column: 1/5;
 	grid-row:1/5;
-	
+	margin: 0 80px;
 }
 
 .title-features{
